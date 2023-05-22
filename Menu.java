@@ -21,14 +21,14 @@ public class Menu extends JFrame {
     public Menu(){
     	setLayout(null);
     	
-    	image = new ImageIcon("GuessTheWorld.jpeg");
+    	image = new ImageIcon();
         lblImage = new JLabel(image);
         // set the dimension of the image
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         int width= (int) screenSize.getWidth();
         int height = (int) screenSize.getHeight();
         try {
-            image.setImage((ImageIO.read(new File("GuessTheWorld.jpeg"))).getScaledInstance(width,height,Image.SCALE_DEFAULT));
+            image.setImage((ImageIO.read(new File("GuessTheWords.jpg"))).getScaledInstance(width,height,Image.SCALE_DEFAULT));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
