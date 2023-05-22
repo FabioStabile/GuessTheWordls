@@ -715,7 +715,7 @@ public class GUI extends JFrame {
         lblHelp.setForeground(new Color(49,0,98));
 
         btnHelp = new JButton();
-        btnHelp.setIcon(new ImageIcon("lampada.PNG"));
+        btnHelp.setIcon(new ImageIcon("lampadina.PNG"));
         btnHelp.setBackground(new Color(224,176,255));
         btnHelp.setBorderPainted(false);
         btnHelp.setOpaque(true);
